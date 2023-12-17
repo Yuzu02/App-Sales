@@ -1,0 +1,61 @@
+﻿<Window x:Class="Crud_Wpf.View.MiCuenta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crud_Wpf.View"
+        mc:Ignorable="d"
+        Title="AcercaDe" Height="450" Width="500" 
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        Background="Transparent"
+        MouseDown="Cerrar" 
+        Cursor="Hand">
+    <Border CornerRadius="10"
+            Background="White"
+            Opacity="0.98"
+            BorderBrush="OrangeRed" BorderThickness="1">
+        <Grid>
+            <!--#region Rows y Cols-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+            <!--#endregion-->
+            <!--#region Titulo-->
+            <TextBlock Text="Mi Cuenta"
+                       Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4"
+                       FontSize="20"
+                       TextAlignment="Center"
+                       VerticalAlignment="Center"
+                       Foreground="OrangeRed"
+                       FontWeight="SemiBold"/>
+            <!--#endregion-->
+            <!--#region Info usuario-->
+            <StackPanel Grid.Column="1" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                        HorizontalAlignment="Left"
+                        Background="Transparent">
+                <TextBlock FontSize="16" x:Name="tbNombre" Foreground="OrangeRed" Text="Nombre :" Margin="0 10"/>
+                <TextBlock FontSize="16" x:Name="tbApellido" Foreground="OrangeRed" Text="Apellido :" Margin="0 10"/>
+                <TextBlock FontSize="16" x:Name="tbCorreo" Foreground="OrangeRed" Text="Correo :" Margin="0 10"/>
+                <TextBlock FontSize="16" x:Name="tbPrivilegio" Foreground="OrangeRed" Text="Privilegio : Nivel" Margin="0 10"/>
+            </StackPanel>
+            <Image Grid.Row="2" Grid.Column="2" x:Name="Img" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
+            <!--#endregion-->
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,6 @@
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaEntidad\bin\Release\CapaEntidad.dll
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaEntidad\bin\Release\CapaEntidad.pdb
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaEntidad\obj\Release\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaEntidad\obj\Release\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaEntidad\obj\Release\CapaEntidad.dll
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaEntidad\obj\Release\CapaEntidad.pdb

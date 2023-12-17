@@ -1,0 +1,9 @@
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\bin\Release\CapaDatos.dll
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\bin\Release\CapaDatos.pdb
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\bin\Release\CapaEntidad.dll
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\bin\Release\CapaEntidad.pdb
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\obj\Release\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\obj\Release\CapaDatos.csproj.CopyComplete
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\User\Downloads\Zips_Rars\Punto-de-ventas---N-capas-main\Punto-de-ventas---N-capas-main\Crud-Wpf\CapaDatos\obj\Release\CapaDatos.pdb

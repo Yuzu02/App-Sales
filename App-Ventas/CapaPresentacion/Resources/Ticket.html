@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="font-family: 'Times New Roman';width: 50vw;/* align-items: center; */margin-left: 25vw;">
+    <div align="center">
+        <hr />
+        <h2 align="center">Punto de Venta</h2>
+        <table width="300" align="center">
+            <tr align="center">
+                <td>Factura</td>
+            </tr>
+            <tr align="center">
+                <td>ID: 0000-000000-000-0</td>
+            </tr>
+            <tr align="center">
+                <td>Giro: Comercial</td>
+            </tr>
+            <tr align="center">
+                <td>Tiquete: @Ticket</td>
+            </tr>
+            <tr align="center">
+                <td>Caja: 01</td>
+            </tr>
+            <tr align="center">
+                <td>Empleado: @Usuario</td>
+            </tr>
+            <tr align="center">
+                <td>Fecha: @Fecha</td>
+            </tr>
+        </table>
+        <hr />
+        <table width="300">
+            <thead>
+                <tr>
+                    <th>Cant.</th>
+                    <th>Descripcion</th>
+                    <th>P. Unitario</th>
+                    <th>Importe</th>
+                </tr>
+            </thead>
+            <tbody>
+                @grid
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <table width="300">
+            <tr>
+                <td align="left">Total a pagar:</td>
+                <td align="right">@TOTAL</td>
+            </tr>
+        </table>
+        <hr />
+        <table width="300">
+            <tr>
+                <td align="left">Pago:</td>
+                <td align="right">@efectivo</td>
+            </tr>
+            <tr>
+                <td align="left">Cambio:</td>
+                <td align="right">@cambio</td>
+            </tr>
+            <tr>
+                <td align="left">Total articulos:</td>
+                <td align="right">@cant_articulos</td>
+            </tr>
+        </table>
+        <hr />
+        MUCHAS GRACIAS POR SU COMPRA
+        <hr />
+    </div>
+</body>
+</html>
