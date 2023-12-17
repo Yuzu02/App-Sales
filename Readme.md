@@ -8,9 +8,9 @@ App-Ventas is a sales management application developed in .NET. It allows users 
 
 The project is divided into several layers:
 
-- `CapaDatos`: This layer handles all data-related operations. It contains classes like [`CD_Carrito`](CapaDatos/CD_Carrito.cs), [`CD_Login`](CapaDatos/CD_Login.cs), etc.
-- `CapaEntidad`: This layer defines the entities used in the project, such as [`CE_Carrito`](CapaEntidad/CE_Carrito.cs), [`CE_Usuarios`](CapaEntidad/CE_Usuarios.cs), etc.
-- `CapaNegocio`: This layer contains the business logic of the application. It includes classes like [`CN_Carrito`](CapaNegocio/CN_Carrito.cs), [`CN_Login`](CapaNegocio/CN_Login.cs), etc.
+- `CapaDatos`: This layer handles all data-related operations. It contains classes like [`CD_Carrito`](CapaDatos/CD_Carrito.cs), [`CD_Login`](CapaDatos/CD_Login.cs).
+- `CapaEntidad`: This layer defines the entities used in the project, such as [`CE_Carrito`](CapaEntidad/CE_Carrito.cs), [`CE_Usuarios`](CapaEntidad/CE_Usuarios.cs).
+- `CapaNegocio`: This layer contains the business logic of the application. It includes classes like [`CN_Carrito`](CapaNegocio/CN_Carrito.cs), [`CN_Login`](CapaNegocio/CN_Login.cs).
 - `CapaPresentacion`: This layer is responsible for the presentation logic and user interface of the application.
 
 ## Getting Started
@@ -19,8 +19,8 @@ To get started with this project, clone the repository and open `App-Ventas.sln`
 
 NOTE---------------------------------------------------------------------------------------------
 
-- Ejecutar script.Sql para crear la base de datos que consume la app.
-- Cambiar la cadena de conexión en la clase CD_Conexión (Si se ejectuo el scrip.Sql debería bastar con cambiar la parte del DataSource).
+- Run script.Sql to create the database that the app consumes.
+- Change the connection string in the CD_Conexión class (If the scrip.Sql was executed, it should be enough to change the DataSource part).
 
 
 ## Build
