@@ -1,8 +1,8 @@
-# App-Ventas
+# App-Sales
 
 ## Description
 
-App-Ventas is a sales management application developed in .NET. It allows users to manage products, users, privileges, and more.
+App-Sales is a sales management application developed in .NET. It allows users to manage products, users, privileges, and more.
 
 ## Project Structure
 
@@ -34,7 +34,7 @@ Admin User:
 - password : 123abc
 
 Sales User: 
-- usuario : ventas1
+- user : ventas1
 - password : v321
 
 ## Contributing
